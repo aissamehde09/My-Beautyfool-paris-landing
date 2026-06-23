@@ -58,11 +58,6 @@ export const resources = {
               title: "Referral Offers",
               text:
                 "Refer your friends and receive special discounts."
-            },
-            vip: {
-              title: "Year-Round VIP Benefits",
-              text:
-                "Special attentions and surprises for loyal members."
             }
           }
         },
@@ -162,11 +157,6 @@ export const resources = {
               title: "Parrainage",
               text:
                 "Parrainez vos proches et recevez des réductions."
-            },
-            vip: {
-              title: "Avantages VIP toute l’année",
-              text:
-                "Des attentions et surprises réservées à nos membres fidèles."
             }
           }
         },

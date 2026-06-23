@@ -12,13 +12,12 @@ import { LeadForm } from "@/components/lead-form";
 const benefits: Array<{
   accent: "navy" | "red";
   icon: FontAwesomeIconName;
-  key: "rates" | "offers" | "homes" | "referral" | "vip";
+  key: "rates" | "offers" | "homes" | "referral";
 }> = [
   { key: "rates", icon: "tag", accent: "navy" },
   { key: "offers", icon: "gem", accent: "red" },
   { key: "homes", icon: "house", accent: "navy" },
-  { key: "referral", icon: "users", accent: "red" },
-  { key: "vip", icon: "star", accent: "navy" }
+  { key: "referral", icon: "users", accent: "red" }
 ];
 
 export default function HomePage() {
@@ -49,7 +48,7 @@ export default function HomePage() {
               className="mx-auto h-auto w-[280px] sm:w-[330px] md:ml-10"
             />
 
-            <h1 className="mt-10 whitespace-nowrap font-display text-[52px] font-bold uppercase leading-none sm:text-[64px] lg:text-[76px]">
+            <h1 className="mt-10 whitespace-nowrap text-center font-display text-[52px] font-bold uppercase leading-none sm:text-[64px] lg:text-[76px]">
               <span className="text-navy-900">{t("home.hero.titlePrivate")}</span>{" "}
               <span className="text-paris-red">{t("home.hero.titleClub")}</span>
             </h1>
@@ -108,7 +107,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="mt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {benefits.map((benefit, index) => (
               <BenefitItem
                 key={benefit.key}
