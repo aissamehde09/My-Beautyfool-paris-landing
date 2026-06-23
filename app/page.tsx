@@ -39,16 +39,7 @@ export default function HomePage() {
 
         <div className="relative z-10 mx-auto w-full max-w-[1180px] px-5 pb-10 pt-7 sm:px-8 md:min-h-[770px] md:px-10 lg:px-14">
           <div className="max-w-[520px] md:w-[52%]">
-            <Image
-              src="/images/brand-lockup-transparent.png"
-              alt={t("home.logoAlt")}
-              width={350}
-              height={150}
-              priority
-              className="mx-auto h-auto w-[280px] sm:w-[330px] md:ml-10"
-            />
-
-            <h1 className="mt-10 whitespace-nowrap text-center font-display text-[52px] font-bold uppercase leading-none sm:text-[64px] lg:text-[76px]">
+            <h1 className="mt-20 whitespace-nowrap text-center font-display text-[52px] font-bold uppercase leading-none sm:mt-14 sm:text-[64px] md:mt-10 lg:text-[76px]">
               <span className="text-navy-900">{t("home.hero.titlePrivate")}</span>{" "}
               <span className="text-paris-red">{t("home.hero.titleClub")}</span>
             </h1>
