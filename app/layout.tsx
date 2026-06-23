@@ -4,7 +4,7 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://my-beautyfool-private-club.vercel.app"),
+  metadataBase: new URL("https://my-beautyfool-paris-landing.vercel.app"),
   title: "My Beautyfool Paris Private Club",
   description:
     "Join the My Beautyfool Paris Private Club and receive your welcome gift.",
