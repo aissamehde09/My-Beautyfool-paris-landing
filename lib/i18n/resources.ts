@@ -179,7 +179,7 @@ export const resources = {
         title: "Merci pour votre inscription !",
         giftTitle: "Votre cadeau de bienvenue arrive bientôt !",
         giftText: "Vous le recevrez par email dans les prochaines heures.",
-        inboxText: "Pensez à vérifier votre boîte de réception ainsi que vos spams.",
+        inboxText: "Votre cadeau arrive dans quelques instants. Pensez à vérifier les onglets \"Promotions\" ou \"Spam\" si vous ne le voyez pas dans votre boîte de réception.",
         platformTitleLine1: "Une nouvelle plateforme,",
         platformTitleLine2: "grâce à vous !",
         platformText:
