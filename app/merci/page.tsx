@@ -58,7 +58,7 @@ export default function MerciPage() {
                 <div className="flex h-9 w-12 shrink-0 items-center justify-center text-navy-900 sm:h-10 sm:w-16">
                   <FontAwesomeIcon name="envelope" className="h-6 w-6 sm:h-7 sm:w-7" />
                 </div>
-                <p className="text-sm font-medium leading-6 text-paris-red sm:text-base sm:leading-7">
+                <p className="text-sm font-bold leading-6 text-paris-red sm:text-base sm:leading-7">
                   {t("merci.inboxText")}
                 </p>
               </div>
