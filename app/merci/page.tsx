@@ -4,12 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@/components/font-awesome-icon";
+import { LanguageSwitcher } from "@/components/language-switcher";
 
 export default function MerciPage() {
   const { t } = useTranslation();
 
   return (
     <main className="min-h-screen bg-white text-paris-ink">
+      <LanguageSwitcher />
       <section className="relative isolate min-h-screen overflow-hidden px-3 py-6 sm:px-6 sm:py-10 lg:px-8">
         <Image
           src="/images/merci-background.png"

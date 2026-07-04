@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { I18nProvider } from "@/components/i18n-provider";
-import { LanguageSwitcher } from "@/components/language-switcher";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -25,7 +24,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <I18nProvider>
-          <LanguageSwitcher />
           {children}
         </I18nProvider>
       </body>
