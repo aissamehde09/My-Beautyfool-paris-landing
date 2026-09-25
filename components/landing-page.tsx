@@ -39,9 +39,9 @@ export function LandingPage() {
           />
         </div>
 
-        <div className="relative z-10 mx-auto w-full max-w-[1180px] px-5 pb-10 pt-7 sm:px-8 md:min-h-[770px] md:px-10 lg:px-14">
-          <div className="max-w-[520px] md:w-[52%]">
-            <h1 className="mt-20 whitespace-nowrap text-center font-display text-[52px] font-bold uppercase leading-none sm:mt-14 sm:text-[64px] md:mt-10 lg:text-[76px]">
+        <div className="relative z-10 mx-auto w-full px-5 pb-10 pt-7 sm:px-8 md:grid md:min-h-[770px] md:grid-cols-2 md:px-10 lg:px-14">
+          <div className="mx-auto w-full max-w-[520px] text-center">
+            <h1 className="mt-20 font-display text-[44px] font-bold uppercase leading-none sm:mt-14 sm:text-[64px] md:mt-10 md:text-[52px] lg:text-[68px]">
               <span className="text-navy-900">
                 {t("home.hero.titlePrivate")}
               </span>{" "}
@@ -50,19 +50,19 @@ export function LandingPage() {
               </span>
             </h1>
 
-            <div className="mx-auto mt-6 flex max-w-[300px] items-center gap-5 text-paris-red md:mx-0 md:ml-24">
+            <div className="mx-auto mt-6 flex max-w-[300px] items-center gap-5 text-paris-red">
               <span className="h-px flex-1 bg-paris-blue/60" />
               <FontAwesomeIcon name="heart" className="h-5 w-5" />
               <span className="h-px flex-1 bg-paris-red/40" />
             </div>
 
-            <p className="mx-auto mt-4 w-[340px] max-w-full text-center font-display text-lg font-semibold uppercase leading-7 text-navy-900 md:mx-0 md:ml-16">
+            <p className="mx-auto mt-4 max-w-[340px] font-display text-lg font-semibold uppercase leading-7 text-navy-900">
               {t("home.hero.audience")}
             </p>
 
-            <div className="mt-10 flex items-center gap-4">
-              <div className="flex h-[76px] w-[76px] shrink-0 items-center justify-center rounded-full bg-navy-900 text-white">
-                <FontAwesomeIcon name="gift" className="h-10 w-10" />
+            <div className="mt-8 flex flex-col items-center gap-4">
+              <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-navy-900 text-white">
+                <FontAwesomeIcon name="gift" className="h-8 w-8" />
               </div>
               <div className="font-display text-[25px] font-semibold uppercase leading-[1.15] sm:text-[28px]">
                 <p className="text-navy-900">{t("home.hero.giftTitle")}</p>
@@ -70,7 +70,7 @@ export function LandingPage() {
               </div>
             </div>
 
-            <p className="mt-6 max-w-[460px] text-[15px] leading-7 text-slate-800 sm:text-base">
+            <p className="mx-auto mt-6 max-w-[460px] text-[15px] leading-7 text-slate-800 sm:text-base">
               {t("home.hero.intro")}
             </p>
           </div>
